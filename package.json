@@ -1,0 +1,30 @@
+{
+  "name": "exam",
+  "version": "1.0.0",
+  "description": "Second module exam",
+  "scripts": {
+    "serve": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zewazla/second_module_exam.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zewazla/second_module_exam/issues"
+  },
+  "homepage": "https://github.com/zewazla/second_module_exam#readme",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "tsconfig": "^7.0.0"
+  },
+  "author": "zewazla"
+}
