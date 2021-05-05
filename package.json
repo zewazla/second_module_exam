@@ -1,7 +1,7 @@
 {
-    "name": "geometry",
+    "name": "exam",
     "version": "1.0.0",
-    "description": "Geometry module with a class hierarchy for six basic shapes.",
+    "description": "Second exam",
     "scripts": {
         "serve": "webpack-dev-server",
         "build": "webpack"

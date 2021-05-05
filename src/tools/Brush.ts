@@ -18,5 +18,9 @@ export class Brush implements Tool {
             console.log("Paint job");
         }
     }
+
+    toString(): string {
+        return `I'm a brush`;
+    }
   
 }

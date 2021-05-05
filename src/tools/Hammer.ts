@@ -18,4 +18,8 @@ export class Hammer implements Tool {
             console.log("Rock crushe");
         }
     }   
+
+    toString(): string {
+        return `I'm a hammer`;
+    }
 }

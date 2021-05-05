@@ -18,5 +18,9 @@ export class Drill  implements Tool {
             console.log("Picture hanger");
         }
     }
+    
+    toString(): string {
+        return `I'm a drill`;
+    }
 
 }
