@@ -1,6 +1,6 @@
 import { Obstacle } from "../obstacle/Obstacle";
 
-export abstract class Tool {
-    abstract sound(obstacle: Obstacle):void;
-    abstract sound():void;
+export interface Tool {
+    sound(obstacle: Obstacle):void;
+    sound():void;
 }

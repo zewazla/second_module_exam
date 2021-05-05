@@ -3,7 +3,7 @@ import { Obstacle } from "../obstacle/Obstacle";
 import { Wood } from "../obstacle/Wood";
 import { Tool } from "./Tool";
 
-export class Hammer extends Tool {
+export class Hammer implements Tool {
     sound(obstacle: Obstacle): void;
     sound(): void;
     sound(obstacle?: Obstacle): void {

@@ -1,3 +1,3 @@
-export class Obstacle {
+export abstract class Obstacle {
 
 }

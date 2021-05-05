@@ -3,7 +3,7 @@ import { Wall } from "../obstacle/Wall";
 import { Wood } from "../obstacle/Wood";
 import { Tool } from "./Tool";
 
-export class Drill  extends Tool {
+export class Drill  implements Tool {
     sound(obstacle: Obstacle): void;
     sound(): void;
     sound(obstacle?: Obstacle): void {
@@ -18,4 +18,5 @@ export class Drill  extends Tool {
             console.log("Picture hanger");
         }
     }
+
 }
